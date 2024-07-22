@@ -40,7 +40,9 @@ Note: Following steps are stated for Windows environment. Should work for Linux 
 5. Change the paths highlighted as per the system in the command:
    C:\Real_Estate_Prediction\input_data:/input_data -v C:\Real_Estate_Prediction\output_data:/output_data estate_prediction_img
    Replace "C:\Real_Estate_Prediction" path with your own path.
-6. ![image](https://github.com/user-attachments/assets/de22ef6a-f059-4346-b6d6-cd4f3e306551)
+6. Output would be generated as shown in the sample figure.
+   Note the MAPE and Accuracy shown by the model. Please note that MAPE is not given in % but accuracy is in %.
+   ![image](https://github.com/user-attachments/assets/de22ef6a-f059-4346-b6d6-cd4f3e306551)
 
 
    
