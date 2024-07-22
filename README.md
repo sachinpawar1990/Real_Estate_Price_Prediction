@@ -42,6 +42,8 @@ Note: Following steps are stated for Windows environment. Should work for Linux 
    Replace "C:\Real_Estate_Prediction" path with your own path.
 6. Output would be generated as shown in the sample figure.
    Note the MAPE and Accuracy shown by the model. Please note that MAPE is not given in % but accuracy is in %.
+
+
    ![image](https://github.com/user-attachments/assets/de22ef6a-f059-4346-b6d6-cd4f3e306551)
 
 
