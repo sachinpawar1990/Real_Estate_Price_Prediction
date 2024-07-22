@@ -20,14 +20,23 @@ Files Included:
 3. input_data – This directory should have the test data for which prediction model is to be tested. File should be of CSV format and should contain 305 columns, x001 to x304 along with y.
 4. output_data – This directory would have results of the prediction model after it has been executed. It would be in the CSV format (results.csv). It would contain predictions of each of the algorithms and its absolute errors. “avg_pred2” is the prediction of final model and “avgAE2” is the absolute error of that model.
 5. code_and_models – This directory contains the R script to test the prediction model, other R objects and saved models to be used in prediction purpose.
+   
 i. run_prediction.R – R Script to do the prediction on test set.
+
 ii. mice.reuse.R – R Script to do the imputation of missing values
+
 iii. install_packages.R – R Script which is used to install R packages while building the Docker image.
+
 iv. CorHigh1.RDS – R object which contains the correlated variables taken from training data
+
 v. random_forest_model.RDS – saved Random Forest Model built from training data set
+
 vi. xgboost_model.RDS – saved xgboost Model built from training data set
+
 vii. lasso_model.RDS - saved lasso Model built from training data set
+
 viii. boruta_variables.RDS – saved features selected from Boruta feature Selection method from training set
+
 ix. imputed_data.RDS – R object which is used to do imputation of missing values
 
 
